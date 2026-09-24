@@ -1,0 +1,150 @@
+/* 1. background-color
+   Cambia el color de fondo de un elemento.
+   Sintaxis: background-color: color; */
+body {
+    background-color: #f5f5f5;
+
+
+    /* 2. color
+       Cambia el color del texto.
+       Sintaxis: color: color; */
+    color: #222;
+
+
+    /* 3. font-family
+       Define el tipo de letra.
+       Sintaxis: font-family: tipo-de-letra; */
+    font-family: Arial, sans-serif;
+
+
+    /* 4. margin
+       Agrega espacio por FUERA del elemento.
+       Sintaxis: margin: tamaño; */
+    margin: 0;
+
+
+    /* 5. padding
+       Agrega espacio por DENTRO del elemento.
+       Sintaxis: padding: tamaño; */
+    padding: 0;
+}
+
+header {
+    /* 6. background
+       Permite definir el fondo de un elemento.
+       Puede utilizar colores, imágenes, degradados, etc.
+       Sintaxis: background: valor; */
+    background: #333;
+
+
+    /* 7. text-align
+       Define la alineación del texto.
+       Puede ser left, center, right, etc.
+       Sintaxis: text-align: posición; */
+    text-align: center;
+
+
+    /* 8. padding */
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+
+
+    /* 9. font-size
+       Define el tamaño del texto.
+       Sintaxis: font-size: tamaño; */
+    font-size: 35px;
+
+
+    /* 10. font-weight
+       Define el grosor del texto.
+       Puede utilizar valores como normal, bold, 400, 700, etc.
+       Sintaxis: font-weight: valor; */
+    font-weight: bold;
+}
+
+a {
+    color: white;
+
+
+    /* 11. text-decoration
+       Permite agregar o quitar decoraciones del texto.
+       "none" elimina el subrayado de los enlaces.
+       Sintaxis: text-decoration: valor; */
+    text-decoration: none;
+
+    margin: 10px;
+}
+
+section {
+    margin: 30px;
+
+
+    /* 12. border
+       Agrega un borde.
+       Se especifica grosor, tipo y color.
+       Sintaxis: border: grosor tipo color; */
+    border: 1px solid #ccc;
+
+
+    /* 13. border-radius
+       Redondea las esquinas.
+       Sintaxis: border-radius: tamaño; */
+    border-radius: 10px;
+
+    padding: 20px;
+
+
+    /* 14. box-shadow
+       Agrega una sombra alrededor del elemento.
+       Sintaxis:
+       box-shadow: horizontal vertical difuminado color; */
+    box-shadow: 0 3px 10px #ccc;
+}
+
+img {
+    /* 15. width
+       Define el ancho de un elemento.
+       Sintaxis: width: tamaño; */
+    width: 300px;
+
+
+    /* 16. height
+       Define la altura de un elemento.
+       "auto" conserva la proporción original.
+       Sintaxis: height: tamaño; */
+    height: auto;
+}
+
+.producto {
+    /* 17. display
+       Define cómo se comporta visualmente un elemento.
+       flex permite utilizar Flexbox.
+       Sintaxis: display: flex; */
+    display: flex;
+
+
+    /* 18. justify-content
+       Alinea los elementos horizontalmente cuando utilizamos Flexbox.
+       Sintaxis: justify-content: posición; */
+    justify-content: center;
+
+
+    /* 19. align-items
+       Alinea los elementos en el eje transversal de Flexbox.
+       Sintaxis: align-items: posición; */
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+
+
+    /* 20. cursor
+       Define cómo se muestra el cursor del mouse.
+       "pointer" muestra la típica mano de un elemento clickeable.
+       Sintaxis: cursor: tipo; */
+    cursor: pointer;
+}
